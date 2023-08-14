@@ -29,8 +29,9 @@ body {
 }
 
 .container {
-  width: 1158px;
-  max-width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -286,17 +287,18 @@ img {
 /*? ----------ADVANTAGES---------- */
 
 .advantages-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .advt-title-three {
-  color: var(--color-navy-blue);
-  font-size: 20px;
-  font-weight: 500;
+  color: var(--color-slate);
+  font-size: 36px;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .advt-paragraph {
@@ -308,11 +310,13 @@ img {
 
 .advantages-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
+  /* gap: 24px; */
 }
 
 .advantages-item {
-  width: calc((100% - 3 * 24px) / 4);
+  /* width: calc((100% - 3 * 24px) / 4); */
 }
 
 .advantages-item-top {
@@ -323,6 +327,7 @@ img {
   border-radius: 4px;
   background: var(--color-cloud);
   margin-bottom: 8px;
+  display: none;
 }
 
 .advt-icon {
@@ -339,6 +344,7 @@ img {
 
 .doing-section {
   padding-bottom: 120px;
+  display: none;
 }
 
 .we-doing-title {
@@ -368,8 +374,10 @@ img {
 
 .section-our-team {
   background-color: var(--color-cloud);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 
 .team-title {
@@ -403,12 +411,15 @@ img {
 .team-list {
   display: flex;
   text-align: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  /* gap: 24px; */
+  gap: 72px;
 }
 
 .team-list-item {
   background: var(--color-white);
-  width: calc((100% - 3 * 24px) / 4);
+  margin: 0 auto;
+  /* width: calc((100% - 3 * 24px) / 4); */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -461,8 +472,10 @@ img {
 /*! ----------CUSTOMERS---------- */
 
 .customers-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-title {
@@ -479,7 +492,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  /* gap: 24px; */
+  gap: 72px 16px;
 }
 
 .customers-icon-link {
@@ -496,16 +511,18 @@ img {
 }
 
 .customers-list-item {
-  width: calc((100% - 120px) / 6);
+  /* width: calc((100% - 120px) / 6); */
   height: 88px;
 }
 
 .customers-icon {
   display: inline-block;
   fill: currentColor;
-  width: 168px;
+  /* width: 168px; */
+  width: 188px;
   height: 88px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
+  padding: 16px 40px;
 }
 
 .customers-icon-link:hover,
@@ -536,6 +553,8 @@ img {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-title-studio {
@@ -549,15 +568,27 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
   max-width: 264px;
+  margin: auto;
 }
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+  /* display: flex;
+  align-items: baseline; */
 }
 
 .footer-container-title {
-  margin-right: 120px;
+  margin-bottom: 72px;
+  /* margin-right: 120px; */
+}
+
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
 }
 
 .footer-social-title {
@@ -605,15 +636,19 @@ img {
 .footer-form-container {
   display: flex;
   flex-direction: column;
-  margin-left: 79px;
+  width: 100%;
+  /* margin-left: 79px; */
 }
 
 .footer-form {
-  display: flex;
-  gap: 24px;
+  /* display: flex;
+  gap: 24px; */
 }
 
 .footer-form-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-white);
   font-size: 16px;
   font-weight: 500;
@@ -629,7 +664,8 @@ img {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 264px;
+  /* width: 264px; */
+  width: 100%;
   height: 40px;
   background-color: transparent;
   border-radius: 4px;
@@ -640,6 +676,7 @@ img {
   outline: none;
   color: var(--color-white);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  margin-bottom: 16px;
 }
 
 .footer-form-email::placeholder {
@@ -666,6 +703,7 @@ img {
   background: var(--color-iris);
   border: none;
   cursor: pointer;
+  margin: auto;
 }
 
 .footer-icon-subscribe {
