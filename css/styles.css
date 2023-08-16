@@ -93,8 +93,6 @@ img {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  padding-top: 25px;
-  padding-bottom: 24px;
 }
 
 .navigation-menu {
@@ -127,6 +125,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 24px;
   /* margin-right: 76px; */
 }
 
@@ -218,9 +218,9 @@ img {
 .header-address-link {
   font-family: inherit;
   color: var(--color-slate);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* font-size: 16px; */
+  /* line-height: 1.5; */
+  /* letter-spacing: 0.02em; */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -232,7 +232,7 @@ img {
 .address-menu {
   font-style: normal;
   margin-left: auto;
-  margin-left: 332px;
+  /* margin-left: 332px; */
   display: none;
 }
 
