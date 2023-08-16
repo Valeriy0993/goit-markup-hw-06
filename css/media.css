@@ -19,6 +19,14 @@
     width: 188px;
     padding: 16px 40px;
   }
+
+  .modal {
+    width: 392px;
+  }
+
+  .modal-title {
+    font-size: 16px;
+  }
 }
 
 /*? ----------MOBILE---------- */
@@ -149,6 +157,11 @@
 
   .footer-form-btn {
     margin: 0px 0px 0px 24px;
+  }
+
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
   }
 }
 
