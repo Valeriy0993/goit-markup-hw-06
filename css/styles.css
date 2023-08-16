@@ -248,7 +248,18 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/dark-bg-mob.jpg);
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/dark-bg-mob.jpg);
+    }
+  }
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1068,7 +1079,7 @@ img {
 .menu-tel-link {
   color: var(--color-iris);
   font-family: Roboto;
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -1085,7 +1096,8 @@ img {
 
 .menu-social-list {
   display: flex;
-  gap: 56px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 /*! ----------MOBILE MENU---------- */
