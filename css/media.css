@@ -79,6 +79,17 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/dark-bg-tab.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/retina-img/dark-bg-tab-2x.jpg);
+      }
+    }
   }
 
   .hero-title {
@@ -213,6 +224,17 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/dark-bg-desk.jpg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/retina-img/dark-bg-desk-2x.jpg);
+      }
+    }
   }
 
   .hero-title {

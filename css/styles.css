@@ -257,7 +257,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/dark-bg-mob.jpg);
+        url(../images/retina-img/dark-bg-mob-2x.jpg);
     }
   }
   background-repeat: no-repeat;
