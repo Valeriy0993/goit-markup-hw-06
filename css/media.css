@@ -183,6 +183,32 @@
     width: 408px;
     padding: 72px 24px 24px 24px;
   }
+
+  .portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 128px;
+  }
+
+  .portfolio-container {
+    max-width: 768px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .main-list-item {
+    max-width: 356px;
+  }
+
+  .main-btn-list {
+    margin-bottom: 64px;
+    justify-content: center;
+  }
+
+  .main-btn {
+    padding: 12px 24px;
+  }
 }
 
 /*! ----------TABLET---------- */
@@ -332,6 +358,24 @@
 
   .footer-form-email {
     width: 264px;
+  }
+
+  .portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-container {
+    max-width: 1158px;
+  }
+
+  .main-list-item {
+    width: 360px;
+  }
+
+  .main-btn-list {
+    justify-content: center;
+    gap: 24px;
   }
 }
 
