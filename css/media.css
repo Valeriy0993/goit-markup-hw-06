@@ -206,6 +206,10 @@
     justify-content: center;
   }
 
+  .main-list {
+    justify-content: flex-start;
+  }
+
   .main-btn {
     padding: 12px 24px;
   }
