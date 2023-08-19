@@ -73,7 +73,6 @@
   }
 
   .hero-section {
-    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -248,7 +247,6 @@
   .hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -350,6 +348,11 @@
 
   .footer-container-title {
     margin-right: 120px;
+    margin-bottom: 0;
+  }
+
+  .footer-social-container {
+    margin-bottom: 0;
   }
 
   .footer-form-container {
